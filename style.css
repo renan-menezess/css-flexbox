@@ -1,0 +1,45 @@
+.child-box {
+    /*border-color: #000;
+    border-style: solid;
+    border-width: 1px;*/
+    border: #000 solid 1px; /* shorthand para border-* */
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+/*odd and even*/
+div.child-box:nth-of-type(1) {
+    background-color: rgb(0, 81, 255);
+}
+
+div.child-box:nth-of-type(2) {
+    background-color: rgb(255, 255, 255);
+}
+
+div.child-box:nth-of-type(3) {
+    background-color: rgb(255, 0, 0);
+}
+
+.parent-box {
+    display: flex;
+    background-color: rgb(241, 223, 200);
+    padding: 40px 20px 20px 20px; /* shorthand para padding-* */
+}
+
+.parent-box > p {
+    position: absolute;
+    margin-top: -30px;
+    left: 30px;
+}
+
+#justify-content .parent-box {
+    justify-content: center;
+}
+
+#jc-space-between .parent-box {
+    justify-content: space-between;
+}
+
+#jc-space-around .parent-box {
+    justify-content: space-around;
+}
