@@ -32,6 +32,12 @@ div.child-box:nth-of-type(3) {
     left: 30px;
 }
 
+.parent-box-caption {
+    position: absolute;
+    margin-top: 10px;
+    left: 30;
+}
+
 #justify-content .parent-box {
     justify-content: center;
 }
@@ -42,4 +48,52 @@ div.child-box:nth-of-type(3) {
 
 #jc-space-around .parent-box {
     justify-content: space-around;
+}
+
+#jc-space-evenly .parent-box {
+    justify-content: space-evenly;
+}
+
+#jc-flex-start .parent-box {
+    justify-content: flex-start;
+}
+
+#jc-flex-end .parent-box {
+    justify-content: flex-end;
+}
+
+#jc-initial .parent-box {
+    justify-content: initial;
+}
+
+#jc-inherit .parent-box {
+    justify-content: inherit;
+}
+
+#fd-row .parent-box {
+    flex-direction: row;
+}
+
+#fd-row-reverse .parent-box {
+    flex-direction: row-reverse;
+}
+
+#fd-column .parent-box {
+    flex-direction: column;
+}
+
+#fd-column-reverse .parent-box {
+    flex-direction: column-reverse;
+}
+
+#fd-initial .parent-box {
+    flex-direction: initial;
+}
+
+#fd-inherit .parent-box {
+    flex-direction: inherit;
+}
+
+#ai-normal .parent-box {
+    align-items: normal;
 }
